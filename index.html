@@ -14,13 +14,19 @@
       margin: 5px 0;
       padding: 8px 16px;
     }
+    .warning {
+      margin: 10px 0;
+      color: #d9534f;
+    }
   </style>
 </head>
 <body>
-  <h1>KD_Kara Converter</h1>
-   <p>Warning: make sure osu! output is converted in <a href="https://spotco.github.io/RobeatsWebConvert2/" target="_blank">RoBeats Converter</a> before pasting.</p>
+  <h1>D_Kara</h1>
+  <p class="warning">
+    Warning: make sure osu! output is converted in <a href="https://spotco.github.io/RobeatsWebConvert2/" target="_blank">RoBeats Converter</a> before pasting.
+  </p>
   <textarea id="input" placeholder="input"></textarea>
-  <button onclick="convert()">convert</button>
+  <button onclick="convert()">Convert</button>
   <textarea id="output" readonly placeholder="output"></textarea>
 
   <script>
